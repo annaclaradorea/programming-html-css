@@ -57,9 +57,13 @@ input[type="radio"] {
 
 input[type="text"]{
     padding: 0.6rem;
-    width: 90%;
-    border: 2px solid #798252
-    margin
+    width: 100%;
+    border: 2px solid #798252;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+
+
 }
 
 legend {
@@ -82,4 +86,9 @@ fieldset {
 
 a {
     color: #003566;
+}
+
+input::placeholder {
+    color: #CBBBA7;
+    font-style: italic;
 }
